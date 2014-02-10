@@ -15,11 +15,11 @@ def createTab(nombreCase):
                 tab[i][j].append(0);
                 temptab[i][j].append(0);
 
-def live(i,j,k):
-    tab[i][j][k] = 1
+def live(coordinates):
+    tab[coordinates[0]][coordinates[1]][coordinates[2]] = 1
 
-def die(i,j,k):
-    tab[i][j][k] = 0
+def die(coordinates):
+    tab[coordinates[0]][coordinates[1]][coordinates[2]] = 0
 
 def generation(nombreCase):
     for i in range(nombreCase):
@@ -42,3 +42,5 @@ def generation(nombreCase):
         for j in range(nombreCase):
             for k in range(nombreCase):
                 tab[i][j][k]=temptab[i][j][k];
+def display():
+    print(tab)

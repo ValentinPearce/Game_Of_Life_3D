@@ -8,7 +8,6 @@ print("It models the evolution of single cell generations in a table.")
 print("My idea was to transpose this problem in a three dimension matrix")
 print("=================================================================")	
 gol.createTab(10)
-print tab
 # "arrowhead" at one corner of the cube
 gol.live(0,0,0)
 gol.live(1,0,0)
@@ -24,4 +23,7 @@ gol.live(8,8,9)
 gol.live(8,9,8)
 gol.live(9,8,8)
 gol.live(8,8,8)
+print tab
+print ("==================================================================")
+gol.generation(10)
 print tab
