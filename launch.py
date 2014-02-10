@@ -19,11 +19,11 @@ gol.display()
 print("How many live cells do you want ? ")
 cells = input()
 for a in range (cells) :
-    coord = input("Please enter the coordinates of the cell like so i,j,k")
+    coord = input("Please enter the coordinates of the cell like so: i,j,k  :")
     gol.live(coord)
 print("Here is your grid with living cells")
 gol.display()
-for time in range(1000000000):
+for time in range(1000000):
     countdown = countdown + 1
 gen=input("Which generation do you want to observe? (At this time you have defined generation nº0)")
 for generate in range (gen):
