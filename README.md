@@ -1,4 +1,4 @@
-gol-p
+Game Of Life 3D
 =====
 
 This is a personnal Python project to create a 3 dimensional "Game Of Life"
