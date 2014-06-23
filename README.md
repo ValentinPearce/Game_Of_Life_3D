@@ -9,3 +9,11 @@ and rules that they will be offered to set. They should also be able to see mult
 in a generation with only the console.
 
 THIS MIGHT ONLY WORK USING THE CONSOLE SO IT MIGHT NOT BE COMPATIBLE WITH WINDOWS
+
+
+====
+Instructions
+====
+
+To launch the example, use ´python example.py´
+To lauch the main program use ´python launcher.py´
